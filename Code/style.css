@@ -1,0 +1,71 @@
+.header {
+    height: 100px;
+    background-color: black;
+}
+#headText {
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}
+.nav {
+    background-color: black;
+    margin: 10px;
+    height: 30px;
+
+}
+
+#navText {
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 5px;
+    height: 510px;
+}
+
+#items {
+    background-color: violet;
+}
+
+#info {
+    background-color: lightblue;
+}
+
+#price {
+    background-color: lightgreen;
+}
+
+#link {
+    background-color: lightyellow;
+}
+
+#insertItem {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#insertInfo {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#insertPrice {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#insertLink {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
